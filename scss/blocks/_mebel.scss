@@ -1,0 +1,82 @@
+.mebel {
+
+
+
+
+
+
+   &__card {
+       margin-bottom: 140px;
+   }
+    
+
+
+     &-card__title {
+        padding-bottom: 80px;
+        padding-top: 140px;
+        color:  #282B22;
+        text-align: center;
+        font-family: sans-serif;
+       font-size: 46px;
+       font-style: normal;
+       font-weight: 600;
+       line-height: 125%; 
+       text-transform: uppercase;
+     }
+
+
+     &-card__box {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+
+
+
+     &-card-box__img:nth-child(2) {
+         border-left: none;
+         border-right: none;
+     }
+
+     &-card-box__img {
+        width: 384px;
+        height: 430px;
+        border: 1px solid gray;
+        border-bottom: none;
+        border-top: none;
+        padding: 0 30px;
+     }
+
+
+     &-card-first__text {
+        color:  gray;
+        font-family: sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        padding-bottom: 60px; 
+     }
+
+
+     &-card-last__text {
+        color: #3D4A39;
+        font-family: sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%; 
+        padding-bottom: 30px;
+     }
+
+
+
+
+
+
+
+
+ 
+
+
+}

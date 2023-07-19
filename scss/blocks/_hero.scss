@@ -1,0 +1,141 @@
+.hero {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+
+
+  &__card {
+      background-image: url(../../img/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+
+
+
+
+  &-card-first__title {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding-top: 120px;
+      
+  }
+
+  &-card__title {
+    width: 500px; 
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: uppercase;
+  }
+
+
+  &-card-first__text {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding-bottom: 50px;
+  }
+  
+
+  &-card__text {
+    width: 500px;
+    color:  #FFF;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+  }
+
+
+
+
+  &-card-box__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+    
+  }
+
+
+  &-card__btn {
+    padding: 22px 56px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    border: none;
+    background:  #AE7B3C;
+    box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+
+  }
+
+
+  
+
+
+  &-card-box__icon {
+    color: rgb(190, 190, 190);
+     margin: 0 auto;
+     width: 1100px;
+     padding-top: 41px;
+     border-top: 1px solid ;
+     padding-bottom: 61px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+  }
+
+
+
+  &-card__icon {
+      color: #FFF;
+  }
+
+
+  &-card__icon:last-child {
+    padding-left: 20px;
+  }
+
+
+  &-card__span {
+      width: 32px;
+      height: 32px;
+      border: 1px solid;
+      border-radius: 50%;
+      padding: 8px 11px;
+  }
+
+
+
+  &-card__span:nth-child(2) {
+       margin: 0 15px;
+  }
+
+
+  &-card__span:nth-child(3) {
+     border: 2px solid #FFF;
+     color: #FFFFFF;
+  }
+
+
+
+
+
+}
+
+
+
+
+

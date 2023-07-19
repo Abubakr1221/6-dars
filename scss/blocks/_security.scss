@@ -1,0 +1,125 @@
+.security {
+    padding-top: 140px;
+  
+    &__wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  
+      &__head {
+        color: #282b22;
+        text-align: center;
+        font-family: "Raleway";
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+        text-transform: uppercase;
+      }
+      &__card {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+  
+        &-first {
+          display: flex;
+          align-items: start;
+          justify-content: start;
+          border-bottom: 1px solid;
+          border-right: 1px solid;
+          padding-bottom: 50px;
+        }
+        &-second {
+          display: flex;
+          flex-direction: column;
+          padding-left: 40px;
+          border-bottom: 1px solid;
+          padding-bottom: 50px;
+        }
+      }
+      &__head-second {
+        width: 600px;
+        color: #282b22;
+        font-family: "Raleway";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%;
+        margin-bottom: 10px;
+      }
+      .t {
+        color:  #AE7B3C;
+      }
+  
+      &__text-first {
+        width: 600px;
+        color: #282b22;
+        font-family: "Raleway";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        opacity: 0.30000001192092896;
+      }
+    }
+    &__img {
+      position: absolute;
+      left: 260px;
+    }
+  
+    @media only screen and (max-width: 320px) {
+      .container {
+        max-width: 320px;
+      }
+      .security {
+        width: 320px;
+      }
+      .security__img {
+        display: none;
+      }
+      .security__wrap {
+        width: 320px;
+  
+        &__card {
+          width: 320px;
+  
+          &-first {
+            width: 20px;
+            border: none;
+            display: flex;
+            justify-content: end;
+          }
+  
+          &-second {
+            width: 290px;
+            padding-left: 10px;
+          }
+        }
+        &__head {
+          width: 320px;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 600;
+        }
+        &__head-second {
+          width: 104px;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+        }
+        &__text-first {
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+        }
+        &__text-second {
+          width: 263px;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+        }
+      }
+    }
+  }
